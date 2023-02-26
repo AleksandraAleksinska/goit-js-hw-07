@@ -25,10 +25,10 @@ const biggerImg = (event) => {
     if (event.target.nodeName !== "IMG") {
         return;
       }
-        const instance = basicLightbox.create(`
+        const biggerImgModal = basicLightbox.create(`
         <img src="${event.target.dataset.source}" width="800" height="600">`)
 
-        instance.show()       
+        biggerImgModal.show()       
 
     };
     gallery.addEventListener('click', biggerImg);
