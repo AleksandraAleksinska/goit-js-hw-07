@@ -21,8 +21,5 @@ const biggerImg = new SimpleLightbox ( '.gallery a', {
     captions: true,
     // captionPosition: 'bottom',
     captionsData: 'alt',
-    captionDelay: 300,
-
-
+    captionDelay: 250,
     });
-    // gallery.addEventListener('click', biggerImg);
