@@ -32,3 +32,5 @@ const biggerImg = (event) => {
 
     };
     gallery.addEventListener('click', biggerImg);
+
+    export { gallery, galleryElements, biggerImg };
